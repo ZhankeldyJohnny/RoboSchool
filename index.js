@@ -2,7 +2,7 @@ const modalTrigger = document.getElementsByClassName("trainer__link")[0];
 const modalTrigger1 = document.getElementsByClassName("trainer__link")[1];
 const modalTrigger2 = document.getElementsByClassName("trainer__link")[2];
 const modalTrigger3 = document.getElementsByClassName("trainer__link")[3];
-
+//
 const trainerfoto = document.getElementsByClassName("trainers__foto")[0];
 const imgCopy = trainerfoto.cloneNode(true);
 
