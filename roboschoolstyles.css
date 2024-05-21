@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+body {
+    font-family: "Ubuntu Sans";
+}
+
+header {
+    background-color: #141024;
+    width: 100%;
+    height: 72px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.header__list {
+    margin: 0;
+    padding: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__link {
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+}
+
+.header__link:hover {
+    background-color: #fff;
+    color: #141024;
+}
+
+.header__number {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 30px;
+}
+
+.about__description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.about__statistics {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.statistic__number {
+    color: #d52027;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .about__statistics {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+.statistic__info {
+    font-size: 18px;
+    color: #141024B2;
+}
+
+.block__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 100px 200px;
+}
+
+.advantages {
+    background-color: #F9F9F9;
+}
+
+.block__title {
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+}
+
+.advantages__cards {
+    display: flex;
+    gap: 30px;
+}
+
+.card__title {
+    font-size: 24px;
+}
+
+.card__info {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.main {
+    display: flex;
+    background-color: #141024;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.main__info {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    max-width: 516px;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.main__title {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.main__description {
+    font-size: 20px;
+}
+
+.main__button {
+    background-color: #D52027;
+    padding: 25px 54px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+}
+
+.main__img {
+    width: 626px;
+    height: 733px;
+}
+
+.trainers__container {
+    padding-right: 0;
+}
+
+.trainers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.trainers__foto {
+    width: 270px;
+    height: 375px;
+}
+
+.trainer__name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.trainer__job {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141024B2;
+    margin: 10px 0 20px 0;
+}
+
+.trainer__link {
+    font-size: 18px;
+    font-weight: 400;
+    color: #D52027;
+}
+
+.prices {
+    display: flex;
+    gap: 40px;
+}
+
+.block__price {
+    width: 360px;
+    height: 460px;
+    background-color: #ffffff;
+    padding: 25px 54px;
+    border: 1px solid #14102433;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.block__price:hover {
+    background-color: #141024;
+    transition: .3s;
+    color: #fff;
+}
+
+.price__name {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0 83px 0;
+}
+
+.price__number {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.price__info {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.register__container {
+    display: flex;
+    align-items: center;
+    background-color: #D52027;
+    gap: 30px;
+    padding: 100px 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sale__info {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sale__date {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.register__sale {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 2;
+}
+
+.register-form__input {
+    width: 500px;
+    height: 64px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.register__button {
+    width: 500px;
+    height: 64px;
+    background-color: #141024;
+    border-radius: 5px;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+.procent {
+    font-size: 200px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -60px;
+    left: -30px;
+    opacity: 20%;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #141024;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-logo__name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-logo__info {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer__number {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.modalBackground {
+    display: none;
+    background: rgba(12, 12, 12, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    /* указываем z-индекс для корректного наслаивания */
+    z-index: 1;
+}
+
+.modalActive {
+    position: absolute;
+    width: 940px;
+    height: 768px;
+    top: calc(50% - 224px);
+    left: calc(50% - 196px);
+    border-radius: 1px;
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+    padding: 40px 20px;
+}
+
+.modalClose {
+    font-family: var(--font-regular);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 29px;
+    height: 30px;
+    cursor: pointer;
+}
+
+/* сама картинка кнопочки закрытия */
+.modalClose__name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 3px;
+    width: 24px;
+    height: 24px;
+}
+
+.modalWindow {
+    position: relative;
+
+}
